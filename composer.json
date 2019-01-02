@@ -1,0 +1,38 @@
+{
+    "name": "vrayinc/vray",
+    "description": "Vray Inc checkout",
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "type": "magento2-module",
+    "version": "2.0.1",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Dynamic Dreamz",
+            "email": "devdyna@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": "~100.0.4"
+    },
+    "keywords": [
+      "magento 2",
+      "magento 2 vray checkout",
+      "magento vray payment",
+      "vray",
+      "vray payment method",
+      "checkout",
+      "online payment"
+    ],
+    "autoload": {
+        "psr-4": {
+            "VrayInc\\Vray\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
