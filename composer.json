@@ -7,7 +7,7 @@
     ],
     "type": "magento2-module",
     "version": "2.0.1",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Dynamic Dreamz",
